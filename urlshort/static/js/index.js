@@ -5,7 +5,7 @@ const clipBoard = (codename) => {
 
   let codenames = String(copyText.innerText);
 
-  let url = "https://youareel.heroku.com/" + codenames;
+  let url = "https://youareel.herokuapp.com/" + codenames;
   console.log(url);
 
   const cb = navigator.clipboard;
