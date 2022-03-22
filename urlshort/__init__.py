@@ -11,7 +11,8 @@ if os.path.exists('secretkey.json'):
 
 def create_app(test_config=None):
     app = Flask(__name__)
-    app.secret_key = 'jasifulbaiufbiueaubfliubaliub2839028fbaisdubfuioasdbf'
+    # app.secret_key = 'jasifulbaiufbiueaubfliubaliub2839028fbaisdubfuioasdbf'
+    app.secret_key = keys['secretkey']
 
     
     app.register_blueprint(urlshort.bp, url_prefix='/')
