@@ -6,6 +6,7 @@
   --byzantine: #cf29a5ff;
   --eerie-black-2: #1f1f1fff;
 
+  --mainbg: #1d2129;
   --primary: #3898ec;
   --translucent: #ffffff36;
 
@@ -102,6 +103,7 @@ html {
   //     #80ffdbff
   //   );
   // background: var(--smoky-black);
+  background-color: var(--mainbg);
   background: url("../assets/img/Artboard2.jpg");
   background-repeat: no-repeat;
   background-size: cover;

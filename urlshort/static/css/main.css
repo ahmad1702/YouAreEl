@@ -5,6 +5,7 @@
   --electric-purple: #b616deff;
   --byzantine: #cf29a5ff;
   --eerie-black-2: #1f1f1fff;
+  --mainbg: #1d2129;
   --primary: #3898ec;
   --translucent: #ffffff36;
   /* SCSS Gradient */
@@ -16,6 +17,7 @@
 
 html {
   width: 100%;
+  background-color: var(--mainbg);
   background: url("../assets/img/Artboard2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
