@@ -8,6 +8,7 @@ if os.path.exists('secretkey.json'):
     with open('secretkey.json') as key_file:
         keys = json.load(key_file)
 
+
 bp = Blueprint('urlshort', __name__, static_folder="static", static_url_path="./static")
 
 # Serves the Home Page
