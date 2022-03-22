@@ -157,6 +157,22 @@ form {
     }
   }
 }
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  .actuallogo {
+    height: 5vh;
+    width: auto;
+    margin-right: 1rem;
+  }
+  &:hover {
+    color: grey;
+    text-decoration: none;
+    text-decoration-style: none;
+    filter: brightness(0.8);
+  }
+}
+
 .main-title {
   color: white;
   font-weight: 800;
@@ -165,7 +181,6 @@ form {
   text-decoration: none;
   text-decoration-style: none;
   &:hover {
-    color: grey;
     text-decoration: none;
     text-decoration-style: none;
   }
@@ -347,6 +362,10 @@ input {
     margin-top: 1rem;
   }
   .main-title {
-    font-size: 25pt;
+    // font-size: 25pt;
+    display: none;
+  }
+  .actuallogo {
+    margin-right: 0rem;
   }
 }

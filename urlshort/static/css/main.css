@@ -71,6 +71,30 @@ form {
   color: grey;
 }
 
+.logo-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-title-container .actuallogo {
+  height: 5vh;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.logo-title-container:hover {
+  color: grey;
+  text-decoration: none;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+
 .main-title {
   color: white;
   font-weight: 800;
@@ -82,7 +106,6 @@ form {
 }
 
 .main-title:hover {
-  color: grey;
   text-decoration: none;
   -webkit-text-decoration-style: none;
           text-decoration-style: none;
@@ -283,7 +306,10 @@ input {
     margin-top: 1rem;
   }
   .main-title {
-    font-size: 25pt;
+    display: none;
+  }
+  .actuallogo {
+    margin-right: 0rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

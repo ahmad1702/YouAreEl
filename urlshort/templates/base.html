@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}{% endblock %}</title>
 
+    <!-- Main Site Logo -->
+    <link rel = "icon" type = "image/png" href = "{{url_for('static',
+    filename="assets/ico/ureal.png")}}"
+
     <!-- Bootstrap 5 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -46,9 +50,10 @@
   </head>
   <body>
     <div class="navigation1 d-flex justify-content-between align-items-center">
-      <a href="{{url_for('urlshort.home')}}"
-        ><h1 class="main-title">YouAreEL</h1></a
-      >
+      <a class="logo-title-container" href="{{url_for('urlshort.home')}}">
+        <img class="actuallogo" src="{{url_for('static', filename="assets/ico/ureallight.png")}}" alt="">
+        <h1 class="main-title">YouAreEL</h1>
+      </a>
       <div class="d-flex align-items-center">
         <a
           class="apilink"
@@ -56,7 +61,7 @@
           target="_blank"
           >API</a
         >
-        <button class="btn btn-light">New Link</button>
+        <a class="btn btn-light" href="{{url_for('urlshort.home')}}">New Link</a>
       </div>
     </div>
     {% for message in get_flashed_messages() %}
