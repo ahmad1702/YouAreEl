@@ -1,1 +1,1 @@
-web: gunicorn urlshort:create_app\(\)
+web: gunicorn create_app(urlshort):app -b
