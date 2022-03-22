@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% block title %} URL For "{{code}}" {% endblock %} {%
+block main %}
+
+<div class="modal-piece">
+  <h1>Your URL</h1>
+  <h2>127.0.0.1:5000/<span id="finalcodename" class="highlight">{{code}}</span></h2>
+  <button onclick="clipBoard()" class="btn btn-primary">Copy to Clipboard</button>
+</div>
+
+{% endblock %}
