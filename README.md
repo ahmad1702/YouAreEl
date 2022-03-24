@@ -41,11 +41,11 @@
     <a href="https://youareel.herokuapp.com/"><strong>Check out the live site »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://youareel.herokuapp.com/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/ahmad1702/YouAreEl/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/ahmad1702/YouAreEl/issues">Request Feature</a>
   </p>
 </div>
 
